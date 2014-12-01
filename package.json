@@ -1,0 +1,29 @@
+{
+  "name": "csv2tsv",
+  "version": "1.0.0",
+  "description": "parse csv and output tsv",
+  "bin": {
+    "csv2tsv": "bin/csv2tsv.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kawaz/csv2tsv.git"
+  },
+  "keywords": [
+    "csv",
+    "tsv"
+  ],
+  "author": "Yoshiaki Kawazu <kawazzz@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kawaz/csv2tsv/issues"
+  },
+  "homepage": "https://github.com/kawaz/csv2tsv",
+  "dependencies": {
+    "csv-parse": "0.0.6",
+    "stream-transform": "0.0.6"
+  }
+}
